@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Replace this with actual subscription logic
     // Example: Save to a database, or send an email to add to a mailing list
 
-    $to = 'infor@race.edu.np'; // Replace with your email address
+    $to = "kaushikbasnet2014@gmail.com"; // Replace with your email address
     $subject = 'New Newsletter Subscription';
     $message = "A new user has subscribed to the newsletter with the email: $email";
     $headers = "From: $email" . "\r\n" .

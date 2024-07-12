@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email content
-    $to = "info@race.edu.np";  // Replace with your email address
+    $to = "kaushikbasnet2014@gmail.com";  // Replace with your email address
     $subject = "Contact Form Submission from $name";
     $headers = "From: $email" . "\r\n" .
                "Reply-To: $email" . "\r\n" .
