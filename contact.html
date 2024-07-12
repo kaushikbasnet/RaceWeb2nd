@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaceEducare</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="contact.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="./images/background-video5.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo"><img src="./images/logo.png" alt=""></a>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                ☰
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="courses.html"><strong>Courses</strong></a></li>
+                <li><a href="ourservices.html"><strong>Our Services</strong></a></li>
+                <li><a href="aboutus.html"><strong>About Us</strong></a></li>
+                <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Image Banner Section -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Connect with Us</h1>
+            <p>You're Just a Click Away!</p>
+        </div>
+    </section>
+
+     <!-- Contact Information Section -->
+     <section class="contact-info">
+        <div class="container">
+            <div class="contact-info-content">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone</h3>
+                    <p>01-5443146</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@race.edu.np">info@race.edu.np</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Manbhawan, Kumaripati, Lalitpur, Nepal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <div class="container">
+            <form method="POST" action="submit_contact_form.php" class="form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="image-container">
+                <img src="./images/race2.jpg" alt="Contact Us" class="contact-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Embed Section -->
+    <section class="google-maps">
+        <h2>Our Location</h2>
+        <div class="container">
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.307580231109!2d85.31429221508714!3d27.66512988280138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199f447b0517%3A0x98d89787b68c8c8b!2sManbhawan%2C%20Kumaripati%2C%20Lalitpur%2C%20Nepal!5e0!3m2!1sen!2snp!4v1677314741212!5m2!1sen!2snp"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+        
+<!-- Footer Section -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <a href="index.html"><img src="./images/logo.png" alt="Logo" class="footer-logo"></a>
+                <p class="footer-description">
+                    Providing top-notch services for your needs. Join our community and stay updated with our latest news and offers.
+                </p>
+            </div>
+            <div class="footer-middle">
+                <h4>Contact Us</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:+1234567890">01-5443146</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="info@race.edu.np">info@race.edu.np</a></li>
+                    <li><a href=>Location: Manbhawan, Kumaripati, Lalitpur, Nepal</a></li>
+                    
+                </ul>
+
+                <ul class="footer-social-media">
+                    <li><a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <form class="footer-newsletter" method="POST" action="subscribe_newsletter.php">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+                <button class="back-to-top" aria-label="Back to Top">
+                    <i class="fas fa-chevron-up"></i>
+                </button>
+                <p class="footer-copyright">
+                    &copy; 2024 RaceEducare. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
